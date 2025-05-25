@@ -1,0 +1,13 @@
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\bin\Debug\GörselProg.exe.config
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\bin\Debug\GörselProg.exe
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\bin\Debug\GörselProg.pdb
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.csproj.AssemblyReference.cache
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Form1.resources
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Properties.Resources.resources
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.csproj.GenerateResource.cache
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.exe
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.pdb
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Mutfak.resources
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Form3.resources
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.garson.resources

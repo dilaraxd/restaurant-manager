@@ -18,7 +18,7 @@ namespace GörselProg
         {
             InitializeComponent();
             label2.Text = "\n" + string.Join(Environment.NewLine, secilenler);
-            this.Size = new Size(1300, 700);
+            this.Size = new Size(1350, 690);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.WindowState = FormWindowState.Normal;
 
@@ -57,7 +57,7 @@ namespace GörselProg
         {
             
             panel1.Visible = false;
-      
+            panel3.Visible = true;
             panel2.Visible = false;
             originalFormSize = this.Size;
             SaveControlBounds(this);
@@ -66,6 +66,7 @@ namespace GörselProg
         private void button1_Click(object sender, EventArgs e)
         {
             panel2.Visible = false;
+            panel3.Visible = !panel3.Visible;
             panel1.Visible = !panel1.Visible;
             button1.Parent = this;
         }
@@ -78,6 +79,7 @@ namespace GörselProg
         private void button3_Click(object sender, EventArgs e)
         {
             panel1.Visible = false;
+            panel3.Visible = !panel3.Visible;
             panel2.Visible = !panel2.Visible;
             button3.Parent = this;
 
@@ -93,6 +95,11 @@ namespace GörselProg
             Form1 gırıs = new Form1();
             gırıs.Show();
             this.Hide();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            panel3.Parent = this;
         }
     }
 }

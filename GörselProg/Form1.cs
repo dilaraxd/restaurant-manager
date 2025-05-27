@@ -46,9 +46,7 @@ namespace GörselProg
                 {
                     if (kullaniciAdi == "Garson" && sifre == "grsnID80")
                     {
-                        garson grsn = new garson();
-                        grsn.Show();
-                        this.Hide(); // Giriş formunu gizle
+                        
                     }
                     else if (kullaniciAdi == "MutfakPersoneli" && sifre=="mtfkID27")
                     {
@@ -68,6 +66,12 @@ namespace GörselProg
                         // Eğer veri varsa, Form3'e aktar
                         Form3 frm3 = new Form3(secilenler);
                         frm3.Show();
+                        this.Hide();
+                    }
+                    else if (kullaniciAdi == "Kasiyer" && sifre == "ksyrID16")
+                    {
+                        Kasiyer ksyr = new Kasiyer();
+                        ksyr.Show();
                         this.Hide();
                     }
                 }

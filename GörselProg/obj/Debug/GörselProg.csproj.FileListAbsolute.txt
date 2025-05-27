@@ -11,3 +11,16 @@ C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\G
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Mutfak.resources
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Form3.resources
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.garson.resources
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\bin\Debug\GörselProg.exe.config
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\bin\Debug\GörselProg.exe
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\bin\Debug\GörselProg.pdb
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.csproj.AssemblyReference.cache
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.Form1.resources
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.Mutfak.resources
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.Form3.resources
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.Properties.Resources.resources
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.csproj.GenerateResource.cache
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.csproj.CoreCompileInputs.cache
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.exe
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.pdb
+C:\Users\akman karoser\Desktop\restaurant-manager\GörselProg\obj\Debug\GörselProg.Kasiyer.resources

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,7 +35,7 @@ namespace GörselProg
             foreach (Control ctrl in originalRects.Keys)
             {
                 // panel içindeki kontrolleri tamamen atla
-                if (panel1.Contains(ctrl) || panel2.Contains(ctrl)) continue;
+                if (malzemePanel.Contains(ctrl) || ciroPanel.Contains(ctrl)) continue;
 
                 Rectangle original = originalRects[ctrl];
                 ctrl.Left = (int)(original.Left * xRatio);
@@ -55,40 +56,24 @@ namespace GörselProg
         }
         private void Form3_Load(object sender, EventArgs e)
         {
-            
-            panel1.Visible = false;
+            malzemePanel.Visible = false;
+            ciroPanel.Visible = false;
             panel3.Visible = true;
-            panel2.Visible = false;
             originalFormSize = this.Size;
             SaveControlBounds(this);
+
+
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void malzemeButton_Click(object sender, EventArgs e)
         {
-            panel2.Visible = false;
+            ciroPanel.Visible = false;
             panel3.Visible = !panel3.Visible;
-            panel1.Visible = !panel1.Visible;
-            button1.Parent = this;
+            malzemePanel.Visible = !malzemePanel.Visible;
+            malzemeButton.Parent = this;
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = false;
-            panel3.Visible = !panel3.Visible;
-            panel2.Visible = !panel2.Visible;
-            button3.Parent = this;
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -101,5 +86,80 @@ namespace GörselProg
         {
             panel3.Parent = this;
         }
+
+      
+
+        private void malzemePanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void ciroPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+        private void cirohesaplaButton_Click(object sender, EventArgs e)
+        {
+            double toplamCiro = 0;
+
+            foreach (DataGridViewRow row in dataGridViewCiro.Rows)
+            {
+                if (row.Cells["UrunAdet"].Value != null && row.Cells["Fiyat"].Value != null)
+                {
+                    if (int.TryParse(row.Cells["UrunAdet"].Value.ToString(), out int adet) &&
+                        double.TryParse(row.Cells["Fiyat"].Value.ToString(), out double fiyat))
+                    {
+                        toplamCiro += adet * fiyat;
+                    }
+                }
+            }
+
+            MessageBox.Show("Toplam Ciro: " + toplamCiro.ToString("C2"), "Ciro Bilgisi");
+        }
+
+        private void ciroButton_Click(object sender, EventArgs e)
+        {
+            ciroPanel.Visible = true;
+            malzemePanel.Visible = true;
+            panel3.Visible = false;
+
+            string csvYolu = Path.Combine(Application.StartupPath, "odenenler.csv");
+            CiroVerileriniYukle(csvYolu);
+        }
+        private void CiroVerileriniYukle(string dosyaYolu)
+        {
+            if (!File.Exists(dosyaYolu))
+            {
+                MessageBox.Show("odenenler.csv bulunamadı.");
+                return;
+            }
+
+            dataGridViewCiro.Rows.Clear();
+
+            using (StreamReader sr = new StreamReader(dosyaYolu))
+            {
+                sr.ReadLine(); // Başlık atla
+
+                while (!sr.EndOfStream)
+                {
+                    var satir = sr.ReadLine().Split(',');
+
+                    if (satir.Length >= 4)
+                    {
+                        // Sıralama: Masa, UrunAdi, Adet, Fiyat
+                        dataGridViewCiro.Rows.Add(
+                            satir[0].Trim(),
+                            satir[1].Trim(),
+                            satir[2].Trim(),
+                            satir[3].Trim()
+                        );
+                    }
+                }
+            }
+
+        }
+
+
+
+
     }
 }

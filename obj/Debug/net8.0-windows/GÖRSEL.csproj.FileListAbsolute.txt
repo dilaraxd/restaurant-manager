@@ -1,0 +1,16 @@
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\bin\Debug\net8.0-windows\GÖRSEL.exe
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\bin\Debug\net8.0-windows\GÖRSEL.deps.json
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\bin\Debug\net8.0-windows\GÖRSEL.runtimeconfig.json
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\bin\Debug\net8.0-windows\GÖRSEL.dll
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\bin\Debug\net8.0-windows\GÖRSEL.pdb
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.Form1.resources
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.AssemblyInfo.cs
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.dll
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\refint\GÖRSEL.dll
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.pdb
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\GÖRSEL.genruntimeconfig.cache
+C:\Users\HP\source\repos\GÖRSEL\G-rsel_Garson\obj\Debug\net8.0-windows\ref\GÖRSEL.dll

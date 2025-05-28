@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|c:\\users\\akman karoser\\desktop\\restaurant-manager\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|c:\\users\\akman karoser\\desktop\\restaurant-manager\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\g\u00F6rselprog\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,7 +53,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 321,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -77,36 +77,11 @@
               "RelativeDocumentMoniker": "G\u00F6rselProg\\Kasiyer.cs",
               "ToolTip": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Kasiyer.cs",
               "RelativeToolTip": "G\u00F6rselProg\\Kasiyer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAP8AAAAAAAAAAAArwBABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T18:46:28.124Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
-              "ToolTip": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
-              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAcwJ4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:08:08.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form3.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
-              "ToolTip": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
-              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:48:16.632Z",
-              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
@@ -129,8 +104,7 @@
               "RelativeToolTip": "G\u00F6rselProg\\Form3.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T12:47:16.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T12:47:16.23Z"
             },
             {
               "$type": "Document",
@@ -171,7 +145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Kasiyer.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Kasiyer.cs",
               "RelativeDocumentMoniker": "G\u00F6rselProg\\Kasiyer.cs",
@@ -180,6 +154,29 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T18:46:06.759Z",
               "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form3.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
+              "ToolTip": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
+              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:48:16.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
+              "ToolTip": "C:\\Users\\akman karoser\\Desktop\\restaurant-manager\\G\u00F6rselProg\\Form3.cs",
+              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAcwJ4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T18:08:08.846Z"
             },
             {
               "$type": "Document",
@@ -192,6 +189,16 @@
               "ViewState": "AgIAAAoAAAAAAAAAAAArwFQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T17:41:47.125Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 63,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

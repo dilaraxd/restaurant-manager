@@ -249,14 +249,27 @@ namespace GörselProg
 
         private void buttonYoneticiGoster_Click(object sender, EventArgs e)
         {
+            string aktifMasa = masaLabel.Text.Trim();
             StringBuilder sb = new StringBuilder();
+
             if (File.Exists(odenenDosyaYolu))
             {
                 var satirlar = File.ReadAllLines(odenenDosyaYolu);
-                foreach (var satir in satirlar.Skip(1))
-                    sb.AppendLine(satir);
+                foreach (var satir in satirlar.Skip(1)) // başlığı atla
+                {
+                    string[] parcalar = satir.Split(',');
+                    if (parcalar.Length >= 4 && parcalar[0].Trim() == aktifMasa)
+                    {
+                        sb.AppendLine(satir);
+                    }
+                }
             }
-            MessageBox.Show(sb.ToString(), "Yöneticiye Giden Siparişler");
+
+            if (sb.Length == 0)
+                MessageBox.Show($"{aktifMasa} için yöneticiye gönderilmiş sipariş bulunamadı.", "Bilgi");
+            else
+                MessageBox.Show(sb.ToString(), $"{aktifMasa} - Yöneticiye Giden Siparişler");
         }
+
     }
 }

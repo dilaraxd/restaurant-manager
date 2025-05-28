@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kasiyer));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -48,6 +48,8 @@
             this.masa12 = new System.Windows.Forms.PictureBox();
             this.masa11 = new System.Windows.Forms.PictureBox();
             this.panelodeme = new System.Windows.Forms.Panel();
+            this.panellogo = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.buttonYoneticiGoster = new System.Windows.Forms.Button();
             this.buttonOdemeYap = new System.Windows.Forms.Button();
             this.labelToplam = new System.Windows.Forms.Label();
@@ -56,8 +58,6 @@
             this.UrunAdı = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UrunAdet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.panellogo = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.masa1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.masa2 = new System.Windows.Forms.PictureBox();
@@ -74,9 +74,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.masa12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa11)).BeginInit();
             this.panelodeme.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridSiparis)).BeginInit();
             this.panellogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSiparis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa3)).BeginInit();
@@ -310,6 +310,26 @@
             this.panelodeme.Size = new System.Drawing.Size(485, 730);
             this.panelodeme.TabIndex = 93;
             // 
+            // panellogo
+            // 
+            this.panellogo.Controls.Add(this.pictureBox13);
+            this.panellogo.Location = new System.Drawing.Point(0, 0);
+            this.panellogo.Margin = new System.Windows.Forms.Padding(2);
+            this.panellogo.Name = "panellogo";
+            this.panellogo.Size = new System.Drawing.Size(483, 726);
+            this.panellogo.TabIndex = 68;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(36, 68);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(396, 399);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
             // buttonYoneticiGoster
             // 
             this.buttonYoneticiGoster.BackColor = System.Drawing.Color.BlueViolet;
@@ -340,9 +360,9 @@
             this.labelToplam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labelToplam.Location = new System.Drawing.Point(303, 635);
             this.labelToplam.Name = "labelToplam";
-            this.labelToplam.Size = new System.Drawing.Size(86, 18);
+            this.labelToplam.Size = new System.Drawing.Size(122, 18);
             this.labelToplam.TabIndex = 22;
-            this.labelToplam.Text = "labelToplam";
+            this.labelToplam.Text = "Toplam Tutar: 0 TL";
             // 
             // masaLabel
             // 
@@ -379,8 +399,8 @@
             // 
             // UrunAdet
             // 
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.UrunAdet.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.UrunAdet.DefaultCellStyle = dataGridViewCellStyle2;
             this.UrunAdet.HeaderText = "Ürün Adeti";
             this.UrunAdet.MinimumWidth = 6;
             this.UrunAdet.Name = "UrunAdet";
@@ -394,26 +414,6 @@
             this.Fiyat.Name = "Fiyat";
             this.Fiyat.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.Fiyat.Width = 125;
-            // 
-            // panellogo
-            // 
-            this.panellogo.Controls.Add(this.pictureBox13);
-            this.panellogo.Location = new System.Drawing.Point(0, 2);
-            this.panellogo.Margin = new System.Windows.Forms.Padding(2);
-            this.panellogo.Name = "panellogo";
-            this.panellogo.Size = new System.Drawing.Size(483, 726);
-            this.panellogo.TabIndex = 68;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(36, 68);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(396, 399);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
             // 
             // masa1
             // 
@@ -546,9 +546,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.masa11)).EndInit();
             this.panelodeme.ResumeLayout(false);
             this.panelodeme.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridSiparis)).EndInit();
             this.panellogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridSiparis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.masa3)).EndInit();

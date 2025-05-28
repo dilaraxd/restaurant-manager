@@ -32,13 +32,19 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.dataGridViewCiro = new System.Windows.Forms.DataGridView();
+            this.MasaNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.urunadı = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Adet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fiyat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -62,12 +68,13 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCiro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -78,8 +85,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -114,15 +119,6 @@
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.Color.GhostWhite;
-            this.richTextBox1.Location = new System.Drawing.Point(19, 12);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(690, 1080);
-            this.richTextBox1.TabIndex = 17;
-            this.richTextBox1.Text = "";
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.MistyRose;
@@ -134,6 +130,7 @@
             this.button2.TabIndex = 18;
             this.button2.Text = "CİRO HESAPLA";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -179,12 +176,76 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.dataGridViewCiro);
             this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Location = new System.Drawing.Point(1897, 77);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(728, 1140);
             this.panel2.TabIndex = 20;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.pictureBox13);
+            this.panel3.Location = new System.Drawing.Point(46, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(629, 1158);
+            this.panel3.TabIndex = 68;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(16, 252);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(594, 624);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
+            // dataGridViewCiro
+            // 
+            this.dataGridViewCiro.BackgroundColor = System.Drawing.Color.GhostWhite;
+            this.dataGridViewCiro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewCiro.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MasaNo,
+            this.urunadı,
+            this.Adet,
+            this.Fiyat});
+            this.dataGridViewCiro.Location = new System.Drawing.Point(28, 31);
+            this.dataGridViewCiro.Name = "dataGridViewCiro";
+            this.dataGridViewCiro.RowHeadersWidth = 82;
+            this.dataGridViewCiro.RowTemplate.Height = 33;
+            this.dataGridViewCiro.Size = new System.Drawing.Size(662, 949);
+            this.dataGridViewCiro.TabIndex = 19;
+            // 
+            // MasaNo
+            // 
+            this.MasaNo.HeaderText = "Masa No";
+            this.MasaNo.MinimumWidth = 10;
+            this.MasaNo.Name = "MasaNo";
+            this.MasaNo.Width = 80;
+            // 
+            // urunadı
+            // 
+            this.urunadı.HeaderText = "Ürün Adı";
+            this.urunadı.MinimumWidth = 10;
+            this.urunadı.Name = "urunadı";
+            this.urunadı.Width = 250;
+            // 
+            // Adet
+            // 
+            this.Adet.HeaderText = "Adet";
+            this.Adet.MinimumWidth = 10;
+            this.Adet.Name = "Adet";
+            this.Adet.Width = 60;
+            // 
+            // Fiyat
+            // 
+            this.Fiyat.HeaderText = "Fiyat";
+            this.Fiyat.MinimumWidth = 10;
+            this.Fiyat.Name = "Fiyat";
+            this.Fiyat.Width = 200;
             // 
             // pictureBox1
             // 
@@ -441,25 +502,6 @@
             this.label17.TabIndex = 67;
             this.label17.Text = "MASA 3";
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.pictureBox13);
-            this.panel3.Location = new System.Drawing.Point(1948, 74);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(629, 1158);
-            this.panel3.TabIndex = 68;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(16, 252);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(594, 624);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 0;
-            this.pictureBox13.TabStop = false;
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -467,7 +509,6 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(2682, 1276);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.label17);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label16);
@@ -505,6 +546,9 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCiro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -515,8 +559,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -527,7 +569,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -559,5 +600,10 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.DataGridView dataGridViewCiro;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MasaNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn urunadı;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Adet;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Fiyat;
     }
 }

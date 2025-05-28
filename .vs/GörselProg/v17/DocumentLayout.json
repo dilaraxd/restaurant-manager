@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|c:\\users\\mustafa\\.docker\\g\u00F6rsel programlama\\g\u00F6rselprog\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|c:\\users\\mustafa\\.docker\\g\u00F6rsel programlama\\g\u00F6rselprog\\g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|c:\\users\\mustafa\\.docker\\g\u00F6rsel programlama\\g\u00F6rselprog\\g\u00F6rselprog\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\garson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{754C3E16-AB44-439E-82E3-248181691EED}|G\u00F6rselProg\\G\u00F6rselProg.csproj|solutionrelative:g\u00F6rselprog\\kasiyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,21 +45,36 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 390,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form1.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form1.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form1.cs",
-              "RelativeToolTip": "G\u00F6rselProg\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
+              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAApwDoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:22:13.924Z",
-              "IsPinned": true
+              "WhenOpened": "2025-05-28T16:51:24.415Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Kasiyer.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Kasiyer.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Kasiyer.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Kasiyer.cs",
+              "RelativeToolTip": "G\u00F6rselProg\\Kasiyer.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAuwNoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:54:10.653Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -75,100 +90,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
-              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:56:49.302Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form2.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.Designer.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form2.Designer.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.Designer.cs",
-              "RelativeToolTip": "G\u00F6rselProg\\Form2.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T11:33:59.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
-              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAMwGUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T19:00:00.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form2.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
-              "RelativeToolTip": "G\u00F6rselProg\\Form2.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T17:35:18.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form2.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
-              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form2.cs",
-              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs [Tasar\u0131m]",
-              "RelativeToolTip": "G\u00F6rselProg\\Form2.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:13:39.602Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form1.cs",
               "RelativeDocumentMoniker": "G\u00F6rselProg\\Form1.cs",
               "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form1.cs [Tasar\u0131m]",
               "RelativeToolTip": "G\u00F6rselProg\\Form1.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T10:54:15.845Z"
+              "WhenOpened": "2025-05-28T20:10:09.297Z",
+              "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Kasiyer.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Kasiyer.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Kasiyer.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Kasiyer.cs [Tasar\u0131m]",
+              "RelativeToolTip": "G\u00F6rselProg\\Kasiyer.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:54:06.407Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "garson.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\garson.cs",
               "RelativeDocumentMoniker": "G\u00F6rselProg\\garson.cs",
               "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\garson.cs",
               "RelativeToolTip": "G\u00F6rselProg\\garson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAADgv58AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:15:10.772Z"
+              "WhenOpened": "2025-05-28T16:37:23.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "garson.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\garson.cs",
               "RelativeDocumentMoniker": "G\u00F6rselProg\\garson.cs",
               "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\garson.cs [Tasar\u0131m]",
               "RelativeToolTip": "G\u00F6rselProg\\garson.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T13:12:42.778Z"
+              "WhenOpened": "2025-05-28T16:36:36.437Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form3.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
+              "RelativeToolTip": "G\u00F6rselProg\\Form3.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:36:31.673Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form2.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
+              "RelativeToolTip": "G\u00F6rselProg\\Form2.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADgv8AAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:22:41.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form2.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs",
+              "RelativeDocumentMoniker": "G\u00F6rselProg\\Form2.cs",
+              "ToolTip": "C:\\Users\\Mustafa\\.docker\\G\u00F6rsel programlama\\G\u00F6rselProg\\G\u00F6rselProg\\Form2.cs [Tasar\u0131m]",
+              "RelativeToolTip": "G\u00F6rselProg\\Form2.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T14:49:41.566Z"
             }
           ]
         }

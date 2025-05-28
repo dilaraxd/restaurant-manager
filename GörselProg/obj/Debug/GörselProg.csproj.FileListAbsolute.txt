@@ -11,3 +11,4 @@ C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\G
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Mutfak.resources
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Form3.resources
 C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.garson.resources
+C:\Users\Mustafa\.docker\Görsel programlama\GörselProg\GörselProg\obj\Debug\GörselProg.Kasiyer.resources

@@ -29,9 +29,10 @@ namespace GörselProg
             this.Resize += new EventHandler(Form1_Resize);
             //kayıtlı personel girişi
             personelVeritabani.Add("Garson", "grsnID80");
-            personelVeritabani.Add("Kasiyer", "ksyrID16");
+
             personelVeritabani.Add("MutfakPersoneli", "mtfkID27");
             personelVeritabani.Add("Yönetici", "yntciID46");
+            personelVeritabani.Add("Kasiyer", "ksyrID16");
 
             button1.Click += button1_Click;
         }
@@ -46,30 +47,68 @@ namespace GörselProg
                 {
                     if (kullaniciAdi == "Garson" && sifre == "grsnID80")
                     {
-                        garson grsn = new garson();
-                        grsn.Show();
-                        this.Hide(); // Giriş formunu gizle
+                        Form acikForm = Application.OpenForms["Garson"];
+                        if (acikForm == null)
+                        {
+                           garson grsn = new garson();
+                            grsn.Show();
+                        }
+                        else
+                        {
+                            acikForm.BringToFront();
+                        }
+                        this.Hide();
                     }
                     else if (kullaniciAdi == "MutfakPersoneli" && sifre=="mtfkID27")
                     {
-                        Mutfak mtfk = new Mutfak();
-                        mtfk.Show();
-                        this.Hide();   
+                  
+                            Form acikForm = Application.OpenForms["Mutfak"];
+                            if (acikForm == null)
+                            {
+                                Mutfak mtfk = new Mutfak();
+                                mtfk.Show();
+                            }
+                            else
+                            {
+                                acikForm.BringToFront();
+                            }
+                            this.Hide();
+                        
                     }
                     else if (kullaniciAdi == "Yönetici" && sifre == "yntciID46")
                     {
-                        // Mutfak formunu başlat (ekrana getirme)
-                        Mutfak mutfak = new Mutfak();
-                       // ya da hiç Show yapmadan kullanabilirsin
-
-                        // Seçilenleri al
-                        List<string> secilenler = mutfak.GetSecilenler();
-
-                        // Eğer veri varsa, Form3'e aktar
-                        Form3 frm3 = new Form3(secilenler);
-                        frm3.Show();
+                        Form acikForm = Application.OpenForms["Form3"];
+                        if (acikForm == null)
+                        {
+                            Mutfak mutfak = new Mutfak();
+                            List<string> secilenler = mutfak.GetSecilenler();
+                            Form3 frm3 = new Form3(secilenler);
+                            frm3.Show();
+                        }
+                        else
+                        {
+                            acikForm.BringToFront();
+                        }
                         this.Hide();
                     }
+                    else if (kullaniciAdi == "Kasiyer" && sifre == "ksyrID16")
+                    {
+                        Form acikForm = Application.OpenForms["Kasiyer"];
+                        if (acikForm == null)
+                        {
+                            Kasiyer ksyr = new Kasiyer();
+                           
+                            
+                            ksyr.Show();
+                        }
+                        else
+                        {
+                            acikForm.BringToFront();
+                        }
+                        this.Hide();
+                    }
+
+
                 }
             }
         }
